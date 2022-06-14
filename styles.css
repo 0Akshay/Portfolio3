@@ -1,0 +1,163 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body, ul, li, h1, a{
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #3c5c7f;
+}
+
+.akshaytxt{
+    background-color: #3c5c7f;
+    text-align: center;
+    margin-top: 35vh;
+    position: sticky;
+    top: -70px;
+    width: 100%;
+    z-index: 1;
+    
+
+}
+
+
+.akshaytxt .sub{
+    display: inline-block;
+    text-align: left;
+}
+
+.akshaytxt .sub:hover h1{
+    color: white;
+    letter-spacing: 3px;
+}
+.akshaytxt .sub:hover h4{
+    color: #b9d9fb;
+
+}
+.akshaytxt .sub:hover img{
+    opacity: 100%;
+
+}
+
+
+.akshaytxt h4{
+    font-size: 30px;
+    display: inline-block;
+    margin-bottom: 0px;
+    color: white;
+    transition: color 1s;
+}
+
+.akshaytxt h1{
+    display: inline;
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #b9d9fb;
+    transition: all 1s;
+}
+
+.akshaytxt h1 a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* .akshaytxt .sub img{
+    margin-bottom: 0px;
+    opacity: 0%;
+    height: 60px;
+    width: 60px;
+    transition: 1s;
+} */
+
+.section2{
+    text-align: center;
+}
+
+.section2 p{
+    font-size: 18px;
+}
+
+.spacing1{
+    display: block;
+    width: 100%;
+    height: 30vh;
+    z-index: +5;
+}
+
+.navbar{
+    display: block;
+    background-color:#283d54;
+    position: sticky;
+    top: 72px;
+    /* position: absolute;
+    top: 85vh; */
+    width: 100%;
+    z-index: 0;
+    padding: 20px 0px;
+    opacity: 80%;
+}
+
+.navbar .bar{
+    background-color: #283d54;
+    text-align: center;
+    z-index: +0;
+    color: white;
+}
+
+.navbar .bar li{
+    text-align: center;
+    display: inline-block;
+    width: 21vw;
+    transition: all 0.5s;
+
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+#barli1:hover{
+    letter-spacing: 0.1em;
+}
+
+#barli2:hover{
+    letter-spacing: 0.1em;
+}
+
+#barli3:hover{
+    letter-spacing: 0.1em;
+}
+
+#barli4:hover{
+    letter-spacing: 0.1em;
+}
+
+
+.section3{
+    background-color: #283d54;
+    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-left: 30%;
+    padding-right: 10%;
+    margin-top: 0px;
+    
+}
+
+
+
+
+.section4{
+
+}
+
+p{
+    color: white;
+    padding: 0 40px;
+}
+
