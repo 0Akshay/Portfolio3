@@ -252,6 +252,8 @@ p{
         width: 100%;
         top: -101px;
         z-index: 1;
+        background-color: #2c435c;
+        opacity: 100%;
 
         
     }
@@ -277,9 +279,7 @@ p{
         padding-bottom: 17px;
     }
 
-    .gbholder{
-        background-color: #283d54;
-        opacity: 80%;
+    .navbar .bar .gbholder{
         padding-top: 10px;
         padding-bottom: 10px;
     }
