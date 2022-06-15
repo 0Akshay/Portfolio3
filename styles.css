@@ -110,7 +110,7 @@ p{
 .navbar .bar{
     background-color: #283d54;
     text-align: center;
-    z-index: +0;
+    z-index: +1;
     color: white;
 }
 
