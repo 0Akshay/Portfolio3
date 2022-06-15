@@ -102,7 +102,7 @@ p{
     /* position: absolute;
     top: 85vh; */
     width: 100%;
-    z-index: 0;
+    z-index: 1;
     padding: 20px 0px;
     opacity: 80%;
 }
