@@ -24,7 +24,7 @@ p{
     position: sticky;
     top: -70px;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
     
 
 }
@@ -71,14 +71,6 @@ p{
     color: inherit;
 }
 
-/* .akshaytxt .sub img{
-    margin-bottom: 0px;
-    opacity: 0%;
-    height: 60px;
-    width: 60px;
-    transition: 1s;
-} */
-
 .section2{
     text-align: center;
 }
@@ -99,8 +91,6 @@ p{
     background-color:#283d54;
     position: sticky;
     top: 72px;
-    /* position: absolute;
-    top: 85vh; */
     width: 100%;
     z-index: 1;
     padding: 20px 0px;
@@ -257,21 +247,52 @@ p{
 
 @media screen and (max-width: 500px){
 
-    .navbar{
-        padding: 10px 0px;
+    .navbar {
+        padding: 0px 0px;
         width: 100%;
+        top: -105px;
 
         
     }
-    .navbar .bar li{
+    .navbar .bar li {
         text-align: center;
         display: block;
         width: 100%;
         margin: 0px;
         padding: 7px 0px;
         font-size: 21px;
-
     }
+
+    .navbar .bar li:hover{
+        background-color: #3b5979;
+        color: #283d54;
+    }
+
+    #barli1{
+        padding-top: 17px;
+    }
+
+    #barli4{
+        padding-bottom: 17px;
+    }
+
+    .gbholder{
+        background-color: #283d54;
+        opacity: 80%;
+        padding: 10px 10px;
+    }
+
+    .gesturebar{
+        height: 5px;
+        margin: 0px 60px;
+        background-color: aliceblue;
+        border-radius: 10px;
+    }
+
+    /* .test:hover #barli2 {
+        display: none;
+    } */
+
 
     
 
