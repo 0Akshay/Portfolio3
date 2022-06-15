@@ -250,7 +250,8 @@ p{
     .navbar {
         padding: 0px 0px;
         width: 100%;
-        top: -100px;
+        top: -102px;
+        z-index: 1;
 
         
     }
@@ -279,7 +280,8 @@ p{
     .gbholder{
         background-color: #283d54;
         opacity: 80%;
-        padding: 10px 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     .gesturebar{
