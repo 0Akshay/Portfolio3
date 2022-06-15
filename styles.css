@@ -12,6 +12,11 @@ body{
     background-color: #3c5c7f;
 }
 
+p{
+    color: white;
+    padding: 0 40px;
+}
+
 .akshaytxt{
     background-color: #3c5c7f;
     text-align: center;
@@ -141,7 +146,7 @@ body{
 
 .section3{
     background-color: #283d54;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     padding-top: 100px;
     padding-left: 0%;
     padding-right: 0%;
@@ -181,6 +186,25 @@ body{
     margin: 50px 5%
 }
 
+.project1:hover .l1{
+    font-weight: bold;
+}
+.project2:hover .l2{
+    font-weight: bold;
+}
+.project3:hover .l3{
+    font-weight: bold;
+}
+.project4:hover .l4{
+    font-weight: bold;
+}
+.project5:hover .l5{
+    font-weight: bold;
+}
+.project6:hover .l6{
+    font-weight: bold;
+}
+
 .section3 .project img{
     border: 2px solid white;
     border-radius: 10px;
@@ -193,17 +217,17 @@ body{
 
 }
 
-
-
-
-
 .section4{
-
+    padding-top: 50px;
 }
 
-p{
-    color: white;
-    padding: 0 40px;
+.section6{
+    background-color: #283d54;
+    margin-bottom: 0px;
+    margin-top:60px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
 }
 
 
