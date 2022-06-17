@@ -176,6 +176,13 @@ p{
     margin: 50px 5%
 }
 
+#btnControl {
+    display: none;
+}
+.btn{
+    display: none;
+}
+
 .project1:hover .l1{
     font-weight: bold;
 }
@@ -243,6 +250,51 @@ p{
         
     }
 
+    /* Button to expand projects */
+
+    .projects .project4 {
+        display: none;
+    }
+
+    .projects .project5 {
+        display: none;
+    }
+
+    .projects .project6 {
+        display: none;
+
+    }
+
+    #btnControl{
+        display: none;
+    }
+   
+    .btn{
+        color: white;
+        font-size: 20px;
+        display: block;
+    }
+
+    #btnControl:checked ~ #proj4 {
+        display: inline-block;
+
+    }
+
+    #btnControl:checked ~ #proj5 {
+        display: inline-block;
+
+    }
+
+    #btnControl:checked ~ #proj6 {
+        display: inline-block;
+
+    }
+
+    #btnControl:checked + .btn {
+        display: none;
+
+    }
+
 }
 
 @media screen and (max-width: 500px){
@@ -291,11 +343,6 @@ p{
         background-color: aliceblue;
         border-radius: 10px;
     }
-
-    /* .test:hover #barli2 {
-        display: none;
-    } */
-
 
     
 
