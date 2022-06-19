@@ -8,6 +8,10 @@ body, ul, li, h1, a{
     padding: 0;
 }
 
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
 body{
     background-color: #3c5c7f;
 }
@@ -420,6 +424,13 @@ p{
         background-color: #3b5979;
 
 
+    }
+
+    .navbar .bar a {
+        display: inline-block;
+        /* padding: 0px; */
+        /* margin: 0px; */
+        width: 100%; 
     }
 
     #barli1 {
