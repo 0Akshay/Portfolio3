@@ -17,6 +17,10 @@ p{
     padding: 0 40px;
 }
 
+#navcheck {
+    display: none;
+}
+
 .akshaytxt{
     background-color: #3c5c7f;
     text-align: center;
@@ -24,7 +28,7 @@ p{
     position: sticky;
     top: -70px;
     width: 100%;
-    z-index: 3;
+    z-index: 5;
 }
 
 
@@ -374,18 +378,33 @@ p{
 
 @media screen and (max-width: 500px) {
 
+    .akshaytxt {
+        z-index: 4;
+    }
     #lesstext {
         display: inline;
     }
 
+
     .navbar {
+        z-index: 3;
         padding: 0px 0px;
         width: 100%;
-        top: -100px;
+        /* top: -100px; */
         opacity: 100%;
+
+        position: sticky;
+        top: -80px;
+
+        transition: all 500ms;
+        transition-delay: 100ms;
+
     }
 
+    
+
     .navbar .bar li {
+
         text-align: center;
         display: block;
         width: 100%;
@@ -397,7 +416,8 @@ p{
 
     .navbar .bar li:hover {
         background-color: #3b5979;
-        color: #283d54;
+
+
     }
 
     #barli1 {
@@ -408,10 +428,17 @@ p{
         padding-bottom: 17px;
     }
 
-    .navbar .bar .gbholder {
+    .gbholder {
+        position: sticky;
+        top: 73px;
+        z-index: 4;
         padding-top: 10px;
         padding-bottom: 10px;
         background-color: #2c435c;
+
+        transition: 500ms;
+        transition-delay: 100ms;
+        
     }
 
     .gesturebar{
@@ -421,6 +448,15 @@ p{
         border-radius: 10px;
     }
 
-    
+    .navbar:hover {
+        top: 98px;
+        opacity: 80%;
+    }
+
+    .gbholder:hover ~ .navbar {
+        top: 98px;
+        opacity: 80%;
+
+    }
 
 }
