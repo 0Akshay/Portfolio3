@@ -228,6 +228,25 @@ p{
     padding-top: 50px;
 }
 
+.skills {
+    text-align: center;
+    padding-left: 10%;
+}
+.skills .skill {
+    display: inline-block;
+    text-align: left;
+    width: 49%;
+}
+.skills p {
+    display: inline-block;
+    padding: 10px 20px;
+}
+.skills img {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    vertical-align: middle;
+}
 .section6{
     background-color: #283d54;
     margin-bottom: 0px;
@@ -394,7 +413,7 @@ p{
         z-index: 3;
         padding: 0px 0px;
         width: 100%;
-        background-color: #283d54e0;
+        background-color: rgba(40, 61, 84, 0.878);
 
         position: sticky;
         top: -80px;
