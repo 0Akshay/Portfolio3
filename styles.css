@@ -226,17 +226,28 @@ p{
 
 .section4{
     padding-top: 50px;
+    text-align: center;
 }
 
 .skills {
-    text-align: center;
-    padding-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
+
 .skills .skill {
     display: inline-block;
-    text-align: left;
-    width: 49%;
+    text-align: center;
+    min-width: 200px;
 }
+
+.skills .env {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
 .skills p {
     display: inline-block;
     padding: 10px 20px;
@@ -247,6 +258,8 @@ p{
     width: 50px;
     vertical-align: middle;
 }
+
+
 .section6{
     background-color: #283d54;
     margin-bottom: 0px;
