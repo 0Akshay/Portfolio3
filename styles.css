@@ -29,8 +29,8 @@ p{
     background-color: #3c5c7f;
     text-align: center;
     margin-top: 35vh;
-    position: sticky;
-    top: -70px;
+    /* position: sticky;
+    top: -70px; */
     width: 100%;
     z-index: 5;
 }
@@ -96,7 +96,8 @@ p{
     display: block;
     background-color:#283d54;
     position: sticky;
-    top: 72px;
+    /* top: 72px; */
+    top: 0px;
     width: 100%;
     z-index: 2;
     padding: 20px 0px;
@@ -434,7 +435,7 @@ p{
         background-color: rgba(40, 61, 84, 0.878);
 
         position: sticky;
-        top: -80px;
+        top: -174px;
 
         /* filter: blur(8px); */
 
@@ -480,7 +481,7 @@ p{
 
     .gbholder {
         position: sticky;
-        top: 73px;
+        top: 0px;
         z-index: 4;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -500,11 +501,11 @@ p{
     }
 
     .navbar:hover {
-        top: 98px;
+        top: 25px;
     }
 
     .gbholder:hover ~ .navbar {
-        top: 98px;
+        top: 25px;
     }
 
 }
