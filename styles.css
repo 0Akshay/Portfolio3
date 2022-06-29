@@ -238,7 +238,8 @@ p{
     justify-content: center;
     width: 95%;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 0px;
+    max-width: 1000px;
 }
 
 .skills .skill {
@@ -248,10 +249,15 @@ p{
     width: 120px;
 }
 
+.skills .skill:hover {
+    background-color: #283d54;
+}
+
 .skills .env {
     display: inline-block;
-    margin: 0;
     padding: 0;
+    margin-top: 10px;
+
 }
 
 .skills p {
@@ -259,16 +265,18 @@ p{
     padding: 10px 20px;
     margin: auto;
 }
+
 .skills img {
     display: inline-block;
     height: 50px;
     width: 50px;
     vertical-align: middle;
     margin: auto;
+    padding-top: 10px;
 }
 
 
-.section6{
+.section6 {
     background-color: #283d54;
     margin-bottom: 0px;
     margin-top:60px;
@@ -279,9 +287,9 @@ p{
 
 
 
-@media screen and (max-width: 1050px){
+@media screen and (max-width: 1050px) {
 
-    .section3 .project{
+    .section3 .project {
 
         width: 35%;
 
