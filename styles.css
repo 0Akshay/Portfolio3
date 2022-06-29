@@ -12,7 +12,7 @@ a {
     -webkit-tap-highlight-color: transparent;
 }
 
-body{
+body {
     background-color: #3c5c7f;
 }
 
@@ -25,10 +25,14 @@ p{
     display: none;
 }
 
+.mainstage {
+    z-index: -10;
+    padding-top: 35vh;
+}
+
 .akshaytxt{
     background-color: #3c5c7f;
     text-align: center;
-    margin-top: 35vh;
     /* position: sticky;
     top: -70px; */
     width: 100%;
@@ -230,6 +234,7 @@ p{
 .section4{
     padding-top: 50px;
     text-align: center;
+    background-color: #3c5c7f;
 }
 
 .skills {
@@ -275,11 +280,15 @@ p{
     padding-top: 10px;
 }
 
+.section5 {
+    background-color: #3c5c7f;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
 
 .section6 {
     background-color: #283d54;
     margin-bottom: 0px;
-    margin-top:60px;
     padding-bottom: 50px;
     padding-top: 50px;
 
@@ -430,9 +439,13 @@ p{
 
 @media screen and (max-width: 500px) {
 
-    .akshaytxt {
-        z-index: 4;
+    .mainstage {
+        position: sticky;
+        top: 0px;
+        z-index: -10;
+        padding-top: 35vh;
     }
+
     #lesstext {
         display: inline;
     }
@@ -452,11 +465,7 @@ p{
 
         transition: all 500ms;
         transition-delay: 100ms;
-
-
     }
-
-    
 
     .navbar .bar li {
 
@@ -501,8 +510,7 @@ p{
         background-color: #2f4863;
 
         transition: 500ms;
-        transition-delay: 100ms;
-        
+        transition-delay: 100ms;  
     }
 
     .gesturebar{
