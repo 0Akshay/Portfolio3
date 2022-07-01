@@ -297,16 +297,103 @@ p{
 
 .section5 {
     background-color: #1c2b3a;
-    ;
     padding-top: 40px;
-    padding-bottom: 60px;
+    padding-bottom: 90px;
 }
+
+.about {
+    display: flex;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    flex-wrap: wrap-reverse;
+    justify-content: left;
+}
+
+.section5 .about p {
+    width: 80vw;
+    max-width: 700px;    
+    text-align: justify;
+    margin: auto;
+    margin-bottom: 0;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.section5 .about img {
+    display: block;
+    /* height: 275px;
+    width: 275px; */
+
+    height: 20vw;
+    width: 20vw;
+
+    min-width: 170px;
+    min-height: 170px;
+    
+    max-width: 260px;
+    max-height: 260px;
+
+    margin: auto;
+
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+/* .gh {
+    margin-top: 100px;
+} */
+
+#ghimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    max-width: 800px;
+    margin-top: 30px;
+}
+
+/* Tooltip */
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+  /* End Tooltip */
 
 .section6 {
     background-color: #16222d;
     margin-bottom: 0px;
     padding-bottom: 50px;
     padding-top: 50px;
+    align-self: center;
 
 }
 
