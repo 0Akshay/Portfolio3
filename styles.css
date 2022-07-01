@@ -29,11 +29,18 @@ p{
 .mainstage {
     z-index: 1;
     padding-top: 35vh;
-    background-color: #3c5c7f;
+    /* background-color: #3c5c7f; */
+    background-color: rgb(0, 17, 23);
 }
 
+.sub, .akshaytxt{
+    background-color: inherit;;
+}
+
+
+
 .akshaytxt{
-    background-color: #3c5c7f;
+    /* background-color: #3c5c7f; */
     text-align: center;
     /* position: sticky;
     top: -70px; */
