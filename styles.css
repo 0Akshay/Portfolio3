@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Gentium+Book+Plus:wght@700&display=swap');
+
 html{
     scroll-behavior: smooth;
 }
@@ -37,6 +39,9 @@ p{
     background-color: inherit;;
 }
 
+.akshaytxt .sub h4 {
+    font-family: 'Dancing Script', cursive, sans-serif;
+}
 
 
 .akshaytxt{
@@ -48,12 +53,13 @@ p{
     z-index: 1;
 }
 
-
 .akshaytxt .sub{
     display: inline-block;
     text-align: left;
     z-index: 1;
 }
+
+
 
 .akshaytxt .sub:hover h1{
     color: white;
@@ -70,6 +76,7 @@ p{
 
 
 .akshaytxt h4{
+    
     font-size: 30px;
     display: inline-block;
     margin-bottom: 0px;
