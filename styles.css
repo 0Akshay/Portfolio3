@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Gentium+Book+Plus:wght@700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Kantumruy+Pro:wght@300&display=swap');
+
 html{
     scroll-behavior: smooth;
 }
@@ -30,27 +34,30 @@ p{
 
 .mainstage {
     z-index: 1;
-    padding-top: 35vh;
-    /* background-color: #3c5c7f; */
     background-color: rgb(0, 17, 23);
+    padding-top: 0px;
+    height: calc(100vh - 58.4px);
+    min-height: 300px;
 }
 
 .sub, .akshaytxt{
-    background-color: inherit;;
+    background-color: inherit;
 }
 
 .akshaytxt .sub h4 {
     font-family: 'Dancing Script', cursive, sans-serif;
+    padding: 0px;
+    margin: 0;
 }
 
 
 .akshaytxt{
-    /* background-color: #3c5c7f; */
     text-align: center;
-    /* position: sticky;
-    top: -70px; */
     width: 100%;
     z-index: 1;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);  
 }
 
 .akshaytxt .sub{
@@ -58,9 +65,6 @@ p{
     text-align: left;
     z-index: 1;
 }
-
-
-
 .akshaytxt .sub:hover h1{
     color: white;
     letter-spacing: 3px;
@@ -96,21 +100,6 @@ p{
 .akshaytxt h1 a{
     text-decoration: none;
     color: inherit;
-}
-
-.section2{
-    text-align: center;
-}
-
-.section2 p{
-    font-size: 18px;
-}
-
-.spacing1{
-    display: block;
-    width: 100%;
-    height: 30vh;
-    z-index: 0;
 }
 
 .navbar{
@@ -320,11 +309,14 @@ p{
     width: 80vw;
     max-width: 700px;    
     text-align: justify;
-    text-justify: inter-word;
     margin: auto;
     margin-bottom: 0;
     padding-top: 50px;
     padding-bottom: 40px;
+    font-family: 'Gulzar', serif;
+    /* font-family: 'Kantumruy Pro', sans-serif; */
+    font-size: 18px;
+    line-height: 30px;
 }
 
 .section5 .about img {
@@ -344,7 +336,6 @@ p{
     margin: auto;
 
     border-radius: 50%;
-    border: 2px solid white;
 }
 
 /* .gh {
@@ -559,7 +550,8 @@ p{
         position: sticky;
         top: 0px;
         z-index: 1;
-        padding-top: 28vh;
+        height: calc(100vh - 202.2px);
+        min-height: 300px;
     }
 
     #lesstext {
@@ -572,26 +564,19 @@ p{
         padding: 0px 0px;
         width: 100%;
         background-color: #2f4863;
-        /* background-color: rgba(40, 61, 84, 0.878); */
-
         position: sticky;
         top: -174px;
-
-        /* filter: blur(8px); */
-
         transition: all 500ms;
         transition-delay: 100ms;
     }
 
     .navbar .bar li {
-
         text-align: center;
         display: block;
         width: 100%;
         margin: 0px;
         padding: 7px 0px;
         font-size: 21px;
-        /* background-color: #2c435c; */
         background-color: #2f4863;
         z-index: inherit;
     }
@@ -602,8 +587,6 @@ p{
 
     .navbar .bar a {
         display: inline-block;
-        /* padding: 0px; */
-        /* margin: 0px; */
         width: 100%; 
     }
 
@@ -621,9 +604,7 @@ p{
         z-index: 10;
         padding-top: 10px;
         padding-bottom: 10px;
-        /* background-color: #2c435c; */
         background-color: #2f4863;
-
         transition: 500ms;
         transition-delay: 100ms;  
     }
