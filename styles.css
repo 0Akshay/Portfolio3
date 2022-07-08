@@ -4,11 +4,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Kantumruy+Pro:wght@300&display=swap');
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body, ul, li, h1, a{
+body, ul, li, h1, a {
     font-family: arial;
     margin: 0;
     padding: 0;
@@ -40,7 +40,21 @@ p{
     min-height: 300px;
 }
 
-.sub, .akshaytxt{
+/* .line {
+    position: absolute;
+    background-color: #b9d9fb;
+    display: inline-block;
+}
+
+.l1 {
+    left: 50%;
+    transform: translateX(-50%);
+    height: 10px;
+    width: 400px;
+} */
+
+
+.sub, .akshaytxt {
     background-color: inherit;
 }
 
@@ -51,7 +65,7 @@ p{
 }
 
 
-.akshaytxt{
+.akshaytxt {
     text-align: center;
     width: 100%;
     z-index: 1;
@@ -60,26 +74,26 @@ p{
     transform: translateY(-50%);  
 }
 
-.akshaytxt .sub{
+.akshaytxt .sub {
     display: inline-block;
     text-align: left;
     z-index: 1;
 }
-.akshaytxt .sub:hover h1{
+.akshaytxt .sub:hover h1 {
     color: white;
     letter-spacing: 3px;
 }
-.akshaytxt .sub:hover h4{
+.akshaytxt .sub:hover h4 {
     color: #b9d9fb;
 
 }
-.akshaytxt .sub:hover img{
+.akshaytxt .sub:hover img {
     opacity: 100%;
 
 }
 
 
-.akshaytxt h4{
+.akshaytxt h4 {
     
     font-size: 30px;
     display: inline-block;
@@ -88,21 +102,21 @@ p{
     transition: color 1s;
 }
 
-.akshaytxt h1{
+.akshaytxt h1 {
     display: inline;
     font-size: 60px;
     margin-top: 10px;
     margin-bottom: 10px;
     color: #b9d9fb;
-    transition: all 1s;
+    transition: letter-spacing 1s, color 1s;
 }
 
-.akshaytxt h1 a{
+.akshaytxt h1 a {
     text-decoration: none;
     color: inherit;
 }
 
-.navbar{
+.navbar {
     display: block;
     background-color: #2f4863;
     /* background-color:#283d54; */
@@ -115,7 +129,7 @@ p{
     /* opacity: 80%; */
 }
 
-.navbar .bar{
+.navbar .bar {
     background-color: #2f4863;
     /* background-color: #283d54; */
     text-align: center;
@@ -123,37 +137,37 @@ p{
     color: white;
 }
 
-.navbar .bar li{
+.navbar .bar li {
     text-align: center;
     display: inline-block;
     width: 21vw;
-    transition: all 0.5s;
+    transition: letter-spacing 0.5s;
 
 }
 
-.navbar a{
+.navbar a {
     text-decoration: none;
     color: white;
 }
 
-#barli1:hover{
+#barli1:hover {
     letter-spacing: 0.1em;
 }
 
-#barli2:hover{
+#barli2:hover {
     letter-spacing: 0.1em;
 }
 
-#barli3:hover{
+#barli3:hover {
     letter-spacing: 0.1em;
 }
 
-#barli4:hover{
+#barli4:hover {
     letter-spacing: 0.1em;
 }
 
 
-.section3{
+.section3 {
     background-color: #283d54;
     padding-bottom: 100px;
     padding-top: 100px;
@@ -164,21 +178,35 @@ p{
     
 }
 
-.subheading{
+.subheading {
     opacity: 50%;
     text-align: left;
     font-size: 40px;
 }
 
-.subheading1{
-    
+.subheading1 { 
     padding: 0px;
     margin: 0px;
     margin-left: 10%;
     position: relative;
 }
 
-.projects{
+.subheading2 {
+    margin-left: 10%;
+    padding-left: 0;
+}
+
+.subheading3 {
+    margin-left: 10%;
+    padding-left: 0;
+}
+
+.subheading4 {
+    margin-left: 10%;
+    padding-left: 0;
+}
+
+.projects {
     border: 4px dashed #3c5c7f;
     border-radius: 40px;
     padding-top: 30px;
@@ -187,7 +215,7 @@ p{
 }
 
 
-.section3 .project{
+.section3 .project {
     display: inline-block;
     width: 20%;
     padding: 0px 0px;
@@ -206,32 +234,32 @@ p{
     display: none;
 }
 
-.project1:hover .l1{
+.project1:hover .l1 {
     font-weight: bold;
 }
-.project2:hover .l2{
+.project2:hover .l2 {
     font-weight: bold;
 }
-.project3:hover .l3{
+.project3:hover .l3 {
     font-weight: bold;
 }
-.project4:hover .l4{
+.project4:hover .l4 {
     font-weight: bold;
 }
-.project5:hover .l5{
+.project5:hover .l5 {
     font-weight: bold;
 }
-.project6:hover .l6{
+.project6:hover .l6 {
     font-weight: bold;
 }
 
-.section3 .project img{
+.section3 .project img {
     border: 2px solid white;
     border-radius: 10px;
     max-width: 100%;
 
 }
-.section3 .project p{
+.section3 .project p {
     display: inline;
     padding: 0px 0px;
 
@@ -299,23 +327,20 @@ p{
 
 .about {
     display: flex;
-    padding-left: 5vw;
-    padding-right: 5vw;
     flex-wrap: wrap-reverse;
     justify-content: left;
+    margin: 0 10%;
 }
 
 .section5 .about p {
     width: 80vw;
     max-width: 700px;    
-    text-align: justify;
     margin: auto;
-    margin-bottom: 0;
     padding-top: 50px;
     padding-bottom: 40px;
-    font-family: 'Gulzar', serif;
+    /* font-family: 'Gulzar', serif; */
     /* font-family: 'Kantumruy Pro', sans-serif; */
-    font-size: 18px;
+    font-size: 17px;
     line-height: 30px;
 }
 
@@ -349,11 +374,26 @@ p{
     width: 90%;
     max-width: 800px;
     margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.resume {
+    text-align: center;
+    background-color: white;
+    margin: auto;
+    width: 250px;
+    color: #1c2b3a;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+#resumelink {
+    text-decoration: none;
 }
 
 /* Tooltip */
   
-  .tooltip .tooltiptext {
+  /* .tooltip .tooltiptext {
     visibility: hidden;
     width: 120px;
     background-color: #555;
@@ -384,20 +424,69 @@ p{
   .tooltip:hover .tooltiptext {
     visibility: visible;
     opacity: 1;
-  }
+  } */
+
   /* End Tooltip */
 
 .section6 {
     background-color: #16222d;
     margin-bottom: 0px;
-    padding-bottom: 50px;
+    padding-bottom: 90px;
     padding-top: 50px;
     align-self: center;
-
 }
 
+.section6 .connect {
+    padding: 0 10%;
+}
 
+.section6 ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+    list-style-type: none;
+    margin: auto;
+}
 
+.section6 a {
+    text-decoration: none;
+    display: inline-block;
+    min-width: 225px;
+    flex-grow: 1;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 22px;
+    background-color: #0e161d;
+    padding: 15px 0;
+    margin:  0 25px;
+    margin-bottom: 25px;
+    /* cursor: pointer; */
+    border-radius: 20px;
+    max-width: 200px;
+}
+
+.section6 a:hover {
+    background-color: #06090c;
+}
+
+.end {
+    text-align: center;
+    background-color: #16222d;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.end a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.end a:hover {
+    text-decoration: underline;
+}
 
 
 @media screen and (max-width: 1050px) {
@@ -537,6 +626,11 @@ p{
         bottom: -35px;
         opacity: 0%;
     }
+
+    .section5 .about p {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -550,7 +644,7 @@ p{
         position: sticky;
         top: 0px;
         z-index: 1;
-        height: calc(100vh - 202.2px);
+        height: calc(100vh - 200px);
         min-height: 300px;
     }
 
@@ -615,7 +709,6 @@ p{
         background-color: aliceblue;
         border-radius: 10px;
         z-index: 10;
-
     }
 
     .navbar:hover {
@@ -630,4 +723,13 @@ p{
         z-index: 1;
     }
 
+    .section5 .about p {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .section5 .about {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
